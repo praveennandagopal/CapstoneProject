@@ -52,7 +52,7 @@
 		either we can Use standalone MongoDBCompass or Online MongoDB Atlas Database
 
 **How to Run Application:**
-	1) cd "file_path/Sql.py" 
+	1) cd "file_path/MongoDB.py" 
 
 **Questions:**
 
