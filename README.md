@@ -28,10 +28,10 @@
 	and enables users to search for channel details and join tables to view data in the Streamlit app.
 	
 **RoadMap:**
-	stage1:Based on channel ID get all the Details(Channel Details, Videos Details, Comment Details) in JSON format
-	stage2:Based on Selected Channel ID need to insert as a Document in MongoDB 
-	stage3:Based on Selected Channel Name need to Migrate the Document from MongoDB to MySql
-	stage4:Retrieve data from the SQL database using different search options Questions Listed below
+	**stage1**:Based on channel ID get all the Details(Channel Details, Videos Details, Comment Details) in JSON format
+	**stage2**:Based on Selected Channel ID need to insert as a Document in MongoDB 
+	**stage3**:Based on Selected Channel Name need to Migrate the Document from MongoDB to MySql
+	**stage4**:Retrieve data from the SQL database using different search options Questions Listed below
 
 **Required NPM packages:**
 	install Python
@@ -44,8 +44,7 @@
 		myHost ="localhost" => mySql server name
 		myUser="root" => mySql Username
 		myPassword = "password" => mySql Password
-		myDatabaseName = "xxxx" => mySql Databasename
-		
+		myDatabaseName = "xxxx" => mySql Databasename		
 	**MongoDB.py:**
 		provide _apiKey = "AIzaSxxxxxxxxxxxxxxxxxxxxxxxxxt8"
 		mongoDBConnectionString = "mongodb://localhost:27017" => MongoDB connection string
