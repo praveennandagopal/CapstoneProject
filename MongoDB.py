@@ -8,8 +8,7 @@ import pandas as pd
 import re
 import Sql as sqlFile
 
-def apiConnection():
-    # _apiKey = "AIzaSyAdH3JM1sSdli6x_DDdhQKzCa0L5XxivFs"
+def apiConnection():    
     _apiKey = "AIzaSyCza79IynWTLQ-bxDLC8L4qYw1A0C6cFt8"
     _service = build('youtube','v3',developerKey=_apiKey)
     return _service
