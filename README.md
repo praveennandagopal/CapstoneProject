@@ -1,8 +1,8 @@
+# YouTube Data Harvesting
+# Title:
+	YouTube Data Harvesting and Warehousing using SQL, MongoDB and Streamlit
 
-**Title:**
-	**YouTube Data Harvesting and Warehousing using SQL, MongoDB and Streamlit****
-
-**Description:**
+# Description:
 	This is to create a Streamlit application that allows users to access and analyze data from multiple YouTube channels. The application should have the following features:
 		-Ability to input a YouTube channel ID and retrieve all the relevant data (Channel name, subscribers, total video count, playlist ID, video ID, 		 likes, comments of each video) using Google API.
 		-Option to store the data in a MongoDB database as a data lake.
